@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  <!-- sombra -->
+  <ellipse cx="50" cy="60" rx="28" ry="10" fill="rgba(0,0,0,0.3)"/>
+
+  <!-- base -->
+  <circle cx="50" cy="50" r="28" fill="#2b2b2b" stroke="#111" stroke-width="2"/>
+
+  <!-- brilho leve -->
+  <circle cx="43" cy="43" r="10" fill="#555" opacity="0.4"/>
+
+  <!-- detalhe central -->
+  <circle cx="50" cy="52" r="8" fill="#1a1a1a"/>
+
+  <!-- coroa -->
+  <path d="M30 40 L38 28 L50 40 L62 28 L70 40 L70 45 L30 45 Z"
+        fill="#d4af37" stroke="#8a6d00" stroke-width="1"/>
+
+  <!-- pedrinhas da coroa -->
+  <circle cx="38" cy="33" r="2" fill="#fff"/>
+  <circle cx="50" cy="35" r="2" fill="#fff"/>
+  <circle cx="62" cy="33" r="2" fill="#fff"/>
+
+</svg>
